@@ -35,8 +35,8 @@
 
     {{ if .Site.Params.sidebardisclaimer }}
       <div class="sidebardisclaimer">
-        <h2 class="mt-4">Disclaimer</h2>
-        {{ .Site.Params.disclaimerText }}
+        <h2 class="mt-4">{{ T "disclaimer" }}</h2>
+        {{ T "disclaimerText" }}
       </div>
     {{ end }}
 
